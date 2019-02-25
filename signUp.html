@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NodeJs - Final Project Shmuel Lippel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" base href="/style.css">	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="/scripts.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Sign Up</h2>
+    <div class="form-group">
+      <label for="age">Age:</label>
+      <input type="number" class="form-control" id="age" placeholder="Enter age" name="age" min="0" max="120">
+    </div>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="isMale" id="isMale">Male</label>
+    </div>
+	<!--  <div class="autocomplete" style="width:300px;">
+    <input id="country" type="text" name="myCountry" placeholder="Country" class="form-control">
+  </div>  -->
+	<div class="form-group">
+	<label for="selectCountry">Country:</label>
+    <select id="selectCountry" class="form-control"></select>
+    </div>
+      <div class="form-group submitBtn">
+    <button class="btn btn-default" id="post-btn">Submit</button>
+	</div>
+	<div>
+	<label>Status:</label>
+	<span class="statusFromServer"></span>
+	</div>
+</div>
+
+
+
+</body>
+
+
+
+</html>

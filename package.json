@@ -1,0 +1,16 @@
+{
+  "name": "finalprojectnodejs",
+  "version": "1.0.0",
+  "description": "finalproject node.js",
+  "main": "nodeserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodeserver.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "author": "ShmuelLippel",
+  "license": "ISC"
+
+}
